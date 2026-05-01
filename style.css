@@ -6,8 +6,8 @@
    Use your cheat sheet and the mock-up to help you.
 ================================================================ */
 
-* {
-  margin: 0;
+*{
+  margin: 0 ;
   padding: 0;
   box-sizing: border-box;
 }
@@ -42,7 +42,7 @@
 .header {
   background-color: #1a1a2e;
   color: white;
-  display: flex;
+  display: space-between;
   padding: 20px 24px;
   gap: 4px;
 /*  */
@@ -73,11 +73,11 @@
 .nav {
   background-color: #0F6E56;
   display: flex;
-  flex-direction: column; 
+  flex-direction: row; 
   padding: 10px 24px;
-  gap: 20px;
+  gap: 500px;
+  justify-content: center;
 
-  /* add here */
 }
 
 .nav-link {
@@ -102,7 +102,7 @@
   display: flex;
   gap: 10px;
   color: white;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center; 
 }
 
@@ -131,7 +131,7 @@
 ---------------------------------------------------------------- */
 
 .main {
-  /* add here */
+  align-items: center;
   flex-direction: column;
   gap: 16px;
   padding: 20px;
@@ -155,7 +155,8 @@
   flex-shrink: 0;
   border: 0.5px solid #D3D1C7;
   display: flex;
-  flex-direction: row;  
+
+  flex-direction: column;  
   gap: 10px;
 }
 
